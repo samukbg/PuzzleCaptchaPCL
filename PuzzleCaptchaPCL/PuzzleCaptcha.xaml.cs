@@ -14,7 +14,7 @@ using Xamarin.Forms;
 
 namespace PuzzleCaptchaPCL
 {
-    public partial class PuzzleSwipeCaptcha : ContentView
+    public partial class PuzzleCaptcha : ContentView
     {
         PuzzleService puzzleService;
 
@@ -27,25 +27,25 @@ namespace PuzzleCaptchaPCL
         public static readonly BindableProperty ImageCollectionProperty = BindableProperty.Create(
                                                                         "ImageCollection",
                                                                         typeof(ObservableCollection<object>),
-                                                                        typeof(PuzzleSwipeCaptcha),
+                                                                        typeof(PuzzleCaptcha),
                                                                         new ObservableCollection<object>());
 
         public static readonly BindableProperty SliderThumbImageProperty = BindableProperty.Create(
                                                                         "SliderThumbImage",
                                                                         typeof(string),
-                                                                        typeof(PuzzleSwipeCaptcha),
+                                                                        typeof(PuzzleCaptcha),
                                                                         "");
 
         public static readonly BindableProperty ReloadButtonImageProperty = BindableProperty.Create(
                                                                         "ReloadButtonImage",
                                                                         typeof(string),
-                                                                        typeof(PuzzleSwipeCaptcha),
+                                                                        typeof(PuzzleCaptcha),
                                                                         "");
 
         public static readonly BindableProperty IsRemoteProperty = BindableProperty.Create(
                                                                         "IsRemote",
                                                                         typeof(bool),
-                                                                        typeof(PuzzleSwipeCaptcha),
+                                                                        typeof(PuzzleCaptcha),
                                                                         false);
 
         public event Action<bool,int> MatchAction; // Match event
@@ -75,7 +75,7 @@ namespace PuzzleCaptchaPCL
         }
 
 
-        public PuzzleSwipeCaptcha()
+        public PuzzleCaptcha()
         {
             InitializeComponent();
         }

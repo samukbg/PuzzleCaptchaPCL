@@ -24,7 +24,7 @@
                 AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" />
 
 
-        <captcha:PuzzleSwipeCaptcha
+        <captcha:PuzzleCaptcha
             x:Name="captchaStack"
             ImageCollection="{Binding ImageCollection}"
             SliderThumbImage="sliderThumb.png"

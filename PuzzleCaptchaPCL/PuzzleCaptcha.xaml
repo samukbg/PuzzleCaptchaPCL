@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
     BackgroundColor="LightGray"
-    x:Class="PuzzleCaptchaPCL.PuzzleSwipeCaptcha">
+    x:Class="PuzzleCaptchaPCL.PuzzleCaptcha">
     <ContentView.Content>
         <StackLayout Spacing="10" Margin="5">
             <AbsoluteLayout

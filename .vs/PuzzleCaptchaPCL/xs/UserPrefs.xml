@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="{AD857A2F-798F-407B-94E4-CADACB148C75}|Default">
+  <MonoDevelop.Ide.ItemProperties.Sample.PuzzleSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.399C2E31-1548-40A9-855F-F1ECFAEE9D3C" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PuzzleCaptchaPCL/Services/PuzzleService.cs">
+    <Files>
+      <File FileName="Sample/PuzzleSample/Views/MainPage.xaml.cs" Line="25" Column="32" />
+      <File FileName="Sample/PuzzleSample.iOS/AppDelegate.cs" />
+      <File FileName="Sample/PuzzleSample/Views/MainPage.xaml" />
+      <File FileName="Sample/PuzzleSample/ViewModels/MainViewModel.cs" />
+      <File FileName="Sample/PuzzleSample/ViewModels/BaseViewModel.cs" />
+      <File FileName="Sample/PuzzleSample/App.xaml.cs" />
+      <File FileName="Sample/PuzzleSample/App.xaml" />
+      <File FileName="Sample/PuzzleSample.Android/MainActivity.cs" />
+      <File FileName="Sample/PuzzleSample.Android/Properties/AssemblyInfo.cs" />
+      <File FileName="Sample/PuzzleSample.Android/Properties/AndroidManifest.xml" />
+      <File FileName="Sample/PuzzleSample.iOS/Main.cs" />
+      <File FileName="PuzzleCaptchaPCL/Services/PuzzleService.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PuzzleCaptchaPCL" expanded="True">
+            <Node name="Sample" expanded="True">
+              <Node name="PuzzleSample" expanded="True">
+                <Node name="Dependencies" expanded="True">
+                  <Node name="PackageDependencies" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="PuzzleSample.Android" expanded="True">
+                <Node name="Packages" expanded="True" />
+              </Node>
+              <Node name="PuzzleSample.iOS" expanded="True">
+                <Node name="Packages" expanded="True">
+                  <Node name="PuzzleCaptchaPCL" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="PuzzleCaptchaPCL" expanded="True">
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Sample.PuzzleSample.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>PuzzleSwipeCaptchaPCL/PuzzleSwipeCaptchaPCL.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
