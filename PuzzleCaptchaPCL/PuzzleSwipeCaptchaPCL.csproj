@@ -7,7 +7,7 @@
     <Authors>Samuel Bezerra Gomes</Authors>
     <Description>Puzzle Swipe Captcha implementation for Xamarin / PCL projects.</Description>
     <PackageVersion>0.1.37</PackageVersion>
-    <PackageId>PuzzleSwipeCaptchaPCL</PackageId>
+    <PackageId>PuzzleCaptchaPCL</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace PuzzleSwipeCaptchaPCL.Models
+namespace PuzzleCaptchaPCL.Models
 {
     public class PuzzleEntity
     {

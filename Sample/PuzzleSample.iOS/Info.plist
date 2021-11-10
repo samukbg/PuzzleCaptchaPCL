@@ -25,7 +25,7 @@
     <key>CFBundleDisplayName</key>
     <string>PuzzleSample</string>
     <key>CFBundleIdentifier</key>
-    <string>com.puzzleswipecaptchapcl.puzzlesample.PuzzleSample</string>
+    <string>com.PuzzleCaptchaPCL.puzzlesample.PuzzleSample</string>
     <key>CFBundleVersion</key>
     <string>1.0</string>
     <key>UILaunchStoryboardName</key>

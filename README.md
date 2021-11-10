@@ -1,2 +1,2 @@
-# PuzzleSwipeCaptchaPCL
-Puzzle swipe captcha plugin for Xamarin and Xamarin Forms
+## PuzzleCaptchaPCL
+Simple cross-platform plugin for creating a draggable Puzzle Captcha plugin for Xamarin and Xamarin Forms

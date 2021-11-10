@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using PuzzleSwipeCaptchaPCL.Models;
+using PuzzleCaptchaPCL.Models;
 
-namespace PuzzleSwipeCaptchaPCL.Interfaces
+namespace PuzzleCaptchaPCL.Interfaces
 {
     public interface IPuzzleService
     {

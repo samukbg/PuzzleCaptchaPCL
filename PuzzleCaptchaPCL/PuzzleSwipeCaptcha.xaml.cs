@@ -6,13 +6,13 @@ using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Reflection;
-using PuzzleSwipeCaptchaPCL.Models;
-using PuzzleSwipeCaptchaPCL.Services;
+using PuzzleCaptchaPCL.Models;
+using PuzzleCaptchaPCL.Services;
 using SkiaSharp;
 using SkiaSharp.Views.Forms;
 using Xamarin.Forms;
 
-namespace PuzzleSwipeCaptchaPCL
+namespace PuzzleCaptchaPCL
 {
     public partial class PuzzleSwipeCaptcha : ContentView
     {

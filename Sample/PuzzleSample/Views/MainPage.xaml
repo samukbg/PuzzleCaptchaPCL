@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:Ignorable="d"
              xmlns:DataContext="{d:DesignInstance {x:Type vm:MainViewModel}}"
-             xmlns:captcha="clr-namespace:PuzzleSwipeCaptchaPCL;assembly=PuzzleSwipeCaptchaPCL"
+             xmlns:captcha="clr-namespace:PuzzleCaptchaPCL;assembly=PuzzleCaptchaPCL"
              x:Class="PuzzleSample.MainPage">
     
     <AbsoluteLayout>

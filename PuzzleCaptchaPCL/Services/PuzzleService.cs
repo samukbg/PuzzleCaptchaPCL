@@ -5,11 +5,11 @@ using System.IO;
 using System.Net;
 using System.Reflection;
 using System.Threading.Tasks;
-using PuzzleSwipeCaptchaPCL.Interfaces;
-using PuzzleSwipeCaptchaPCL.Models;
+using PuzzleCaptchaPCL.Interfaces;
+using PuzzleCaptchaPCL.Models;
 using SkiaSharp;
 
-namespace PuzzleSwipeCaptchaPCL.Services
+namespace PuzzleCaptchaPCL.Services
 {
     public class PuzzleService : IPuzzleService
     {
