@@ -1,6 +1,6 @@
 ## PuzzleCaptchaPCL
 
-Simple cross-platform plugin for creating a draggable Puzzle Captcha plugin for Xamarin and Xamarin Forms
+PuzzleCaptchaPCL is a simple cross-platform plugin for creating a draggable Puzzle Captcha plugin for Xamarin and Xamarin Forms
 
 ### Setup
 * Available on NuGet: http://www.nuget.org/packages/PuzzleCaptchaPCL [![NuGet](https://img.shields.io/nuget/v/PuzzleCaptchaPCL.svg?label=NuGet)](https://www.nuget.org/packages/PuzzleCaptchaPCL)
