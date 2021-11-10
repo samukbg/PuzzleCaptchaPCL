@@ -28,9 +28,15 @@ And then implement the captcha itself with the following options:
         x:Name="captchaStack"
         ImageCollection="{Binding ImageCollection}"
         SliderThumbImage="sliderThumb.png"
+        IsRemote="true"
         ReloadButtonImage="reloadIcon.png" />
 ```
 
+### Properties
+- ImageCollection: as a bindable ObservableCollection<object>
+- SlideThumbImage: string type for changing slider button image
+- ReloadButtonImage: for the captcha reload button
+- IsRemote: boolean for setting the ImageCollection as url and not image sources
 
 #### License
 
