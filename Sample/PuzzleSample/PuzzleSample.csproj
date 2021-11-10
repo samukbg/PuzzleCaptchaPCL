@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="PuzzleSwipeCaptchaPCL" Version="0.1.37" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="PuzzleSwipeCaptchaPCL" />
+    <None Remove="ViewModels\" />
+    <None Remove="Views\" />
+    <None Remove="Resources\reloadIcon.png" />
+    <None Remove="Resources\" />
+    <None Remove="Resources\captcha1.png" />
+    <None Remove="Resources\captcha2.png" />
+    <None Remove="Resources\captcha3.png" />
+    <None Remove="Resources\captcha4.png" />
+    <None Remove="Resources\captcha5.png" />
+    <None Remove="Resources\captcha6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
+    <Folder Include="Views\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\captcha1.png" />
+    <EmbeddedResource Include="Resources\captcha2.png" />
+    <EmbeddedResource Include="Resources\captcha3.png" />
+    <EmbeddedResource Include="Resources\captcha4.png" />
+    <EmbeddedResource Include="Resources\captcha5.png" />
+    <EmbeddedResource Include="Resources\captcha6.png" />
+  </ItemGroup>
+</Project>

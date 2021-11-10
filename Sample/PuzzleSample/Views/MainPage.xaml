@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Ignorable="d"
+             xmlns:DataContext="{d:DesignInstance {x:Type vm:MainViewModel}}"
+             xmlns:captcha="clr-namespace:PuzzleSwipeCaptchaPCL;assembly=PuzzleSwipeCaptchaPCL"
+             x:Class="PuzzleSample.MainPage">
+    
+    <AbsoluteLayout>
+        <StackLayout Orientation="Vertical" Spacing="0" VerticalOptions="CenterAndExpand" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="SizeProportional">
+            <Label Text="Create a puzzle captcha!" FontSize="Title" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"  />
+            <Frame BorderColor="#2196F3" Padding="60" Margin="30"  CornerRadius="20" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                <StackLayout>
+                    <Button
+                    Text="Remote collection"
+                    Clicked="OpenRemotePuzzleCaptcha" />
+                <Button
+                    Text="Local collection"
+                    Clicked="OpenLocalPuzzleCaptcha" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+        <StackLayout x:Name="wrapperStack"  BackgroundColor="Black" Opacity="0"  IsVisible="false"
+                AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" />
+
+
+        <captcha:PuzzleSwipeCaptcha
+            x:Name="captchaStack"
+            ImageCollection="{Binding ImageCollection}"
+            SliderThumbImage="sliderThumb.png"
+            ReloadButtonImage="reloadIcon.png"
+            Opacity="0"
+            IsVisible="false"
+            Padding="10"
+            AbsoluteLayout.LayoutBounds=".5,.4,.9,.6" AbsoluteLayout.LayoutFlags="All" /> 
+
+    </AbsoluteLayout>
+
+</ContentPage>
