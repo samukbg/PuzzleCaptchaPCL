@@ -7,6 +7,13 @@ PuzzleCaptchaPCL is a simple cross-platform plugin for creating a draggable Puzz
 * Install into your .NET Standard project and Client projects.
 * Please see the additional setup for each platforms permissions.
 
+### Screenshots
+<div>
+<img src="https://github.com/samukbg/PuzzleCaptchaPCL/blob/main/Screenshots/screenshot1.png?raw=true" alt="local/remote" width="300"/>
+<img src="https://github.com/samukbg/PuzzleCaptchaPCL/blob/main/Screenshots/screenshot2.png?raw=true" alt="local-example" width="300"/>
+<img src="https://github.com/samukbg/PuzzleCaptchaPCL/blob/main/Screenshots/screenshot3.png?raw=true" alt="remote-example" width="300"/>
+</div>
+
 **Platform Support**
 
 |Platform|Version|
@@ -38,7 +45,7 @@ And then implement the captcha itself with the following options:
 - ReloadButtonImage: for the captcha reload button
 - IsRemote: boolean for setting the ImageCollection as url and not image sources
 
-#### License
+### License
 
 Licensed under MIT, see license file.
 ```
@@ -60,4 +67,4 @@ Licensed under MIT, see license file.
 ```
 
 ### Want To Support This Project?
-All I have ever asked is to be active by submitting bugs, features, and sending those pull requests down!
+All I have ever asked is to be active by submitting bugs, features, and sending pull requests!
