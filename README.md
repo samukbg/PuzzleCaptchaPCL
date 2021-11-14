@@ -9,9 +9,9 @@ PuzzleCaptchaPCL is a simple cross-platform plugin for creating a draggable Puzz
 
 ### Screenshots
 <div>
-<img src="https://github.com/samukbg/PuzzleCaptchaPCL/blob/main/Screenshots/screenshot1.png?raw=true" alt="local/remote" width="300"/>
-<img src="https://github.com/samukbg/PuzzleCaptchaPCL/blob/main/Screenshots/screenshot2.png?raw=true" alt="local-example" width="300"/>
-<img src="https://github.com/samukbg/PuzzleCaptchaPCL/blob/main/Screenshots/screenshot3.png?raw=true" alt="remote-example" width="300"/>
+<img src="https://github.com/samukbg/PuzzleCaptchaPCL/blob/main/Screenshots/screenshot1.png?raw=true" alt="local/remote" width="200"/>
+<img src="https://github.com/samukbg/PuzzleCaptchaPCL/blob/main/Screenshots/screenshot2.png?raw=true" alt="local-example" width="200"/>
+<img src="https://github.com/samukbg/PuzzleCaptchaPCL/blob/main/Screenshots/screenshot3.png?raw=true" alt="remote-example" width="200"/>
 </div>
 
 **Platform Support**
