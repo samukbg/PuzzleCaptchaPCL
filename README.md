@@ -22,7 +22,7 @@ PuzzleCaptchaPCL is a simple cross-platform plugin for creating a draggable Puzz
 |Xamarin.Android|API 14+|
 |Xamarin.Mac|Untested|
 
-#### Implementation
+### Implementation
 
 You can implement the puzzle captcha by first importing the plugin via Xaml:
 ```xml
@@ -46,7 +46,6 @@ And then implement the captcha itself with the following options:
 - IsRemote: boolean for setting the ImageCollection as url and not image sources
 
 ### License
-
 Licensed under MIT, see license file.
 ```
 //
