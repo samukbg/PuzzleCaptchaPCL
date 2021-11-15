@@ -5,7 +5,6 @@ PuzzleCaptchaPCL is a simple cross-platform plugin for creating a draggable Puzz
 ### Setup
 * Available on NuGet: http://www.nuget.org/packages/PuzzleCaptchaPCL [![NuGet](https://img.shields.io/nuget/v/PuzzleCaptchaPCL.svg?label=NuGet)](https://www.nuget.org/packages/PuzzleCaptchaPCL)
 * Install into your .NET Standard project and Client projects.
-* Please see the additional setup for each platforms permissions.
 
 ### Screenshots
 <div>
